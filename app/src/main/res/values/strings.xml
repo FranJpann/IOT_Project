@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IOT_Project</string>
+    <string name="rationale_title">Erreur permission du bluetooth</string>
+    <string name="rationale_desc">Pour activer le bluetooth vous devez activer la permission dans vos paramètres</string>
+</resources>

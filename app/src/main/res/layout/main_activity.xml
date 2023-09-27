@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonEnableBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activer le Bluetooth" />
+
+    <Button
+        android:id="@+id/buttonDiscoverBTDevices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rechercher les appareils" />
+
+    <TextView
+        android:id="@+id/titleBT2Devices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liste des appareils BT2"/>
+
+    <ListView
+        android:id="@+id/listViewBT2Devices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/titleBoundedDevices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liste des appareils Bounded"/>
+
+    <ListView
+        android:id="@+id/listViewBoundedDevices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/titleBLEDevices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liste des appareils BLE"/>
+
+    <ListView
+        android:id="@+id/listViewBLEDevices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
