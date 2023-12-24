@@ -17,15 +17,15 @@
         android:text="Rechercher les appareils" />
 
     <TextView
-        android:id="@+id/titleBT2Devices"
+        android:id="@+id/titleBT2BLEDevices"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Liste des appareils BT2"/>
+        android:text="Liste des appareils BT2 / BLE"/>
 
     <ListView
-        android:id="@+id/listViewBT2Devices"
+        android:id="@+id/listViewBT2BLEDevices"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="194dp" />
 
     <TextView
         android:id="@+id/titleBoundedDevices"
@@ -36,17 +36,7 @@
     <ListView
         android:id="@+id/listViewBoundedDevices"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="194dp" />
 
-    <TextView
-        android:id="@+id/titleBLEDevices"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Liste des appareils BLE"/>
-
-    <ListView
-        android:id="@+id/listViewBLEDevices"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
 </LinearLayout>
